@@ -1,15 +1,17 @@
 {
-  "name": "Bruthan",
-  "description": "Site Comercial",
-  "version": "v0.0.0",
+  "name": "bruthan",
+  "description": "bruthan website",
   "repository": {
+    "type": "git",
+    "url": "https://github.com/NathanReuter/Bruthan-WebSite"
   },
   "dependencies": {
     "grunt": "^0.4.5",
-    "lodash": "^2.4.1",
-    "moment": "^2.8.4",
+    "lodash": "^3.1.0",
+    "moment": "^2.9.0"
   },
   "devDependencies": {
-    "grunt-wiredep": "^1.9.0",
+    "grunt-wiredep": "^2.0.0",
+    "load-grunt-tasks": "^3.1.0"
   }
 }
