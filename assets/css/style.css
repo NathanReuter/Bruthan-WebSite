@@ -1102,8 +1102,15 @@ blockquote:after {
     background: url('/assets/imgs/vegetables.png') no-repeat top center;
 }
 .static-header-meat {
-    background: url('/assets/imgs/meat.png') no-repeat center center;
+/*    background: url('/assets/imgs/meat.png') no-repeat center center;*/
+    font-size: 35px;
 }
+
+.static-header-meat i {
+/*    background: url('/assets/imgs/meat.png') no-repeat center center;*/
+    margin-top: 30px
+}
+
 .text-heading {
     position: relative;
     width: 100%;
