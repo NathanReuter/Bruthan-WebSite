@@ -2081,7 +2081,8 @@ ol {
 }
 .fixmenu-clone.navigation-header .navigation-bar > li > a:Hover,
 .fixmenu-clone.navigation-header .navigation-bar > li.active > a {
-    color: #1ac6ff;
+/*    color: #1ac6ff;*/
+    color: #EA3B58
 }
 .fixmenu-clone.navigation-header .navigation-brand {
     background: #fff;
