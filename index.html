@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/toastr.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="bruthan.css">
 </head>
 
 <body id="landing-page">
@@ -67,9 +68,24 @@
         <div id="hero" class="static-header light clearfix" style="  background: rgba(71, 57, 41, 0.53);">
 
             <div class="text-heading">
-               <div style="margin: -5px auto 20px auto"><img src="assets/imgs/logo44.png" alt=""></div>
+                <div class="header-logo">
+                    <img src="assets/imgs/logo44.png" alt="Logo">
+                </div>
                 <h1 class="animated hiding" data-animation="bounceInDown" data-delay="0">Especialista em Licitações & Distribuição</h1>
                 <p class="animated hiding" data-animation="fadeInDown" data-delay="500">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#about" class="btn btn-primary animated hiding" data-animation="bounceIn" data-delay="700" style="background: #FF002A;">Conhecer <br><i class="fa fa-chevron-down"></i></a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="header-offers-container">
+                <div class="container">
+                    <div class="header-workwith">
+                        <h3 class="header-com">COM</h3>
+                        <h3 class="header-oque">O QUE</h3>
+                        <h3 class="header-trabalhamos">TRABALHAMOS</h3>
+                    </div>
                     <div class="container" style="width: 360px;">
                         <div class="row">
                             <div class="col-sm-4 static-header-imagesBox">
@@ -84,19 +100,60 @@
                             <div class="col-sm-4 static-header-imagesBox">
                                 <div class="static-header-meat static-header-ball">
                                     <i class="fa fa-cubes"></i>
-                                    <i class="fa fa-tablet"></i>
                                 </div>
                                 <p>Diversos</p>
                             </div>
                         </div>
+                    </div>
                 </div>
-                <a href="#about" class="btn btn-primary animated hiding" data-animation="bounceIn" data-delay="700" style="background: #FF002A;">Conhecer <br><i class="fa fa-chevron-down"></i></a>
-
             </div>
         </div>
     </div>
-
+    <div id="clients">
+        <div class="container">
+            <ul class="list-inline logos">
+                <li><img class="animated hiding" height="71" width="150" data-animation="fadeInUp" data-delay="0" src="assets/imgs/partners/meadjohnson.png" alt="Mead Johnson" />
+                </li>
+                <li><img class="animated hiding" height="71" width="150" data-animation="fadeInUp" data-delay="200" src="assets/imgs/partners/carnesSilva.png" alt="Carnes Silva" />
+                </li>
+            </ul>
+        </div>
     </div>
+    <a id="showHere"></a>
+
+    <section id="about" class="section dark">
+        <div class="container">
+            <div class="section-content row">
+                <div class="col-sm-6 pull-right animated hiding" data-animation="fadeInRight">
+                    <img src="assets/imgs/bruthanwall.png" class="img-responsive" alt="process 2" />
+                </div>
+                <div class="col-sm-6 animated hiding" data-animation="fadeInLeft">
+                    <br/><br/>
+                    <article>
+                        <h3>QUEM <span class="highlight">SOMOS ?</span></h3>
+                    <div class="sub-title">Somos a Bruthan Comercial LTDA, com mais de 15 anos de experiencia no mercado de licitações em toda grande Florianópolis.</div>
+                        <p>Nosso <span class="highlight">foco</span> reside em licitações do genero alimenticio,  principalmente leites especiais, carnes e cafés...</p>
+                    </article>
+                </div>
+
+                <hr class="clearfix" />
+
+                <div class="col-sm-6 animated hiding" data-animation="fadeInLeft">
+                    <img src="assets/imgs/medal.png" class="img-responsive" alt="process 3" />
+                </div>
+                <div class="col-sm-6 animated hiding" data-animation="fadeInRight">
+                    <br/><br/>
+                    <article>
+                        <h3>Missão, <span class="highlight">Visão</span> e <span class="highlight2">Valores</span></h3>
+                        <p><i class="fa fa-quote-left"></i> Ser destaque no mercado nacional na distribuição de alimentos, reconhecendo colaboradores e parceiros, afim de evoluir social e tecnologicamente, satisfazendo as necessidades de nossos clientes, oferecendo o melhor serviço do mercado, de forma inovadora e eficiente. <i class="fa fa-quote-right"></i></p>
+                        <p><i class="fa fa-quote-left highlight"></i> Adquirir o maior numero de cones e bastonetes possíveis! <i class="fa fa-quote-right highlight"></i></p>
+                        <p><i class="fa fa-quote-left highlight2"></i> Integra, Comprometida e sempre inovando. <i class="fa fa-quote-right highlight2"></i> </p>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
     <!--[if lt IE 9]>
         <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js?ver=1"></script>

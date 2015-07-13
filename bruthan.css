@@ -1,0 +1,87 @@
+.header-offers-container {
+    margin-top: 40px;
+}
+
+.header-logo {
+    margin: 20px auto 90px auto;
+}
+
+.header-workwith {
+    width: 260px;
+    margin: 30px auto;
+    font-weight: 200;
+    font-size: xx-large;
+}
+
+.header-workwith h3 {
+/*    background: rgba(21, 122, 127, 1);*/
+    background: rgba(128, 128, 128, 1);
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    padding-right: 0px;
+    padding-left: 10px;
+    -webkit-box-shadow: 6px 4px 25px -2px rgba(26, 26, 26, 1);
+    -moz-box-shadow: 6px 4px 25px -2px rgba(161, 158, 161, 1);
+    box-shadow: 6px 4px 25px -2px rgba(26, 26, 26, 1);
+}
+
+.header-com {
+    width: 150px;
+/*    color: aqua;*/
+/*    color: rgb(245, 106, 129);*/
+    color: rgb(76, 76, 76);
+}
+
+.header-oque {
+    width: 200px;
+    font-weight: 100;
+}
+
+.header-trabalhamos {
+    width: 300px;
+/*    color: aqua;*/
+/*    color: rgb(245, 106, 129);*/
+    color: rgb(76, 76, 76);
+}
+
+.static-header-imagesBox {
+    text-align: center;
+}
+
+.static-header-ball {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(127, 127, 127);
+}
+
+.static-header-imagesBox p {
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.static-header-baby {
+    background: url('/assets/imgs/babywhite.png') no-repeat bottom center;
+    background-size: 58%;
+}
+
+.static-header-vegetales {
+    background: url('/assets/imgs/vegetableswhite.png') no-repeat center;
+    background-size: 58%;
+}
+
+.static-header-meat {
+    font-size: 48px;
+
+}
+
+.highlight2 {
+    color: goldenrod;
+}
+.static-header-meat i {
+    margin-top: 25px;
+/*    color: aqua;*/
+/*    color: rgb(245, 106, 129);*/
+    color: rgb(255, 255, 255);
+}

@@ -51,8 +51,9 @@ body {
 }
 
 h1 {
-/*    font-size: 58px;*/
-        font-size: 50px;
+    /*    font-size: 58px;*/
+
+    font-size: 50px;
     font-weight: 300;
     display: block;
 }
@@ -251,7 +252,8 @@ hr {
 .btn-primary:hover,
 .btn-primary.hovered {
     background: #1ac6ff;
-/*    border: 1px solid #1ac6ff;*/
+    /*    border: 1px solid #1ac6ff;*/
+
     opacity: 0.9;
 }
 
@@ -370,7 +372,7 @@ article {
     position: absolute;
     left: 50%;
     top: 50%;
-    background-image: url("../img/loading.gif");
+    background-image: url("../imgs/loading.gif");
     background-repeat: no-repeat;
     background-position: center;
     margin: -100px 0 0 -100px;
@@ -1066,9 +1068,10 @@ blockquote:after {
     background: rgba(26, 198, 255, 0.9);
     border: 1px solid #1ac6ff;
 */
+
     background: rgba(218, 10, 37, 0.71);
     border: none;
-/*    border: 1px solid #414041;*/
+    /*    border: 1px solid #414041;*/
 }
 #hero .list-inline {
     margin: 0;
@@ -1086,31 +1089,6 @@ blockquote:after {
     position: relative;
 }
 
-.static-header-imagesBox {
-    text-align: center;
-}
-.static-header-ball {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 2px solid;
-}
-.static-header-baby {
-    background: url('/assets/imgs/baby.png') no-repeat top center;
-}
-.static-header-vegetales {
-    background: url('/assets/imgs/vegetables.png') no-repeat top center;
-}
-.static-header-meat {
-/*    background: url('/assets/imgs/meat.png') no-repeat center center;*/
-    font-size: 35px;
-}
-
-.static-header-meat i {
-/*    background: url('/assets/imgs/meat.png') no-repeat center center;*/
-    margin-top: 30px
-}
-
 .text-heading {
     position: relative;
     width: 100%;
@@ -1122,7 +1100,7 @@ blockquote:after {
 .text-heading h1 {
     color: white;
 }
-}
+
 .text-heading p {
     font-size: 23px;
     font-weight: 300;
@@ -2165,7 +2143,10 @@ ol {
         overflow: hidden;
         height: 0;
         display: block;
-        background: rgba(11, 64, 95, 0.85);
+        background: rgba(11,
+        64,
+        95,
+        0.85);
         text-align: center;
     }
     .navigation-navbar.open {
@@ -2970,7 +2951,10 @@ ol {
     #featuredTab li {
         display: inline-block;
         width: 33%;
-        border-bottom: 1px solid rgba(255, 255, 255, .2);
+        border-bottom: 1px solid rgba(255,
+        255,
+        255,
+        .2);
         margin-bottom: 20px;
         opacity: 0.7;
     }
@@ -3122,7 +3106,10 @@ ol {
     #featuredTab li a .tab-icon:after {
         content: '';
         width: 99%;
-        border-bottom: 1px solid rgba(255, 255, 255, .2);
+        border-bottom: 1px solid rgba(255,
+        255,
+        255,
+        .2);
         display: block;
         position: absolute;
         bottom: 0;
