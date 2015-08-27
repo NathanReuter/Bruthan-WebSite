@@ -85,3 +85,7 @@
 /*    color: rgb(245, 106, 129);*/
     color: rgb(255, 255, 255);
 }
+
+.smal-nav-tab li a{
+    font-size: 11px !important;
+}
