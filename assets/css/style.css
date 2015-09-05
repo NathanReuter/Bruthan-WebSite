@@ -1077,11 +1077,7 @@ blockquote:after {
     margin: 0;
 }
 .static-header {
-    /*    background: url('/assets/imgs/zoom-38271310-3.jpg') no-repeat center center;*/
-    /*    background: url('/assets/imgs/zoom-50494686-3.jpg') no-repeat center center;*/
-    background: url('/assets/imgs/zoom-18687238-3.jpg') no-repeat center center;
-    /*    background: gray;*/
-
+    background: url('/assets/imgs/zoom-17576528-3.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
