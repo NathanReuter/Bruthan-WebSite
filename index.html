@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/toastr.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/reveal.css">
     <link rel="stylesheet" href="bruthan.css">
 </head>
 
@@ -191,20 +192,88 @@
                             <h2>Nossos Produtos</h2>
                         </div>
                         <ul class="nav nav-tabs alt">
-                            <li class="active"><a href="#speacialmilk-tab-alt" data-toggle="tab">Formulas Infantis</a></li>
-                            <li><a href="#products-tab-alt" data-toggle="tab">Produtos em geral</a></li>
-
+                            <li class="active"><a href="#products-tab-alt" data-toggle="tab">Produtos em geral</a></li>
+                            <li><a href="#speacialmilk-tab-alt" data-toggle="tab">Formulas Infantis</a></li>
                         </ul>
 
                         <div class="tab-content alt">
-                            <div class="tab-pane active" id="speacialmilk-tab-alt">
+                            <div class="tab-pane active" id="products-tab-alt">
+                                <div class="section-content row">
+
+                                    <ul class="nav nav-tabs alt smal-nav-tab">
+                                        <li class="active"><a href="#food-tab-alt" data-toggle="tab">Alimentos</a></li>
+                                        <li><a href="#cleanMaterial-tab-alt" data-toggle="tab">Materias de Limpeza</a></li>
+                                        <li><a href="#eletronics-tab-alt" data-toggle="tab">Eletrodomesticos</a></li>
+                                    </ul>
+
+                                    <div class="tab-content alt">
+                                        <div class="tab-pane active" id="food-tab-alt">
+                                            <div class="section-content row">
+                                                <div class="col-sm-6 animated hiding" data-animation="fadeInLeft">
+                                                    <img src="assets/imgs/food.jpg" class="img-responsive" alt="process 3" />
+                                                </div>
+                                                <div class="col-sm-6 animated hiding" data-animation="fadeInRight">
+                                                    <br/>
+                                                    <article class="center">
+                                                        <h3>Alimentos <span class="highlight">Que Trabalhamos</span></h3>
+                                                        <div class="sub-title">Lorem ipsum dolor sit atmet sit dolor greand fdanrh
+                                                            <br/> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
+                                                        <p>In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.</p>
+                                                        <br/>
+                                                        <a href="#" class="btn btn-secondary animated hiding" data-animation="bounceIn" data-delay="700">Get template</a>
+                                                        <a href="#" class="btn btn-secondary animated hiding" data-animation="bounceIn" data-delay="700">See elements</a>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane" id="cleanMaterial-tab-alt">
+                                            <div class="section-content row">
+                                                <div class="col-sm-6 animated hiding" data-animation="fadeInLeft">
+                                                    <img src="assets/imgs/cleanitems.jpg" class="img-responsive" alt="process 3" />
+                                                </div>
+                                                <div class="col-sm-6 animated hiding" data-animation="fadeInRight">
+                                                    <br/>
+                                                    <article class="center">
+                                                        <h3>Materiais <span class="highlight">de Limpeza</span></h3>
+                                                        <div class="sub-title">Lorem sit dolor greand fdanrh
+                                                            <br/> fdanrh sdfs</div>
+                                                        <p>Texto.</p>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane" id="eletronics-tab-alt">
+                                            <div class="section-content row">
+                                                <div class="col-sm-6 animated hiding" data-animation="fadeInLeft">
+                                                    <img src="assets/imgs/homeletronics.png" class="img-responsive" alt="process 3" />
+                                                </div>
+                                                <div class="col-sm-6 animated hiding" data-animation="fadeInRight">
+                                                    <br/>
+                                                    <article class="center">
+                                                        <h3>Materiais <span class="highlight">de Limpeza</span></h3>
+                                                        <div class="sub-title">Lorem sit dolor greand fdanrh
+                                                            <br/> fdanrh sdfs</div>
+                                                        <p>Texto.</p>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="speacialmilk-tab-alt">
                                 <div class="section-content row">
 
                                     <section id="features-list" class="section dark">
                                         <div class="container animated hiding" data-animation="fadeInDown">
                                             <div class="col-md-3 col-sm-6 col-xs-12">
                                                 <article class="center">
-                                                    <img class="icon" width="60px;" src="assets/imgs/milks/enfamil-pre.jpg" alt="">
+                                                    <a data-reveal-id="enfamilpremodal">
+                                                        <img class="icon" width="60px;" src="assets/imgs/milks/enfamil-pre.jpg" alt="">
+                                                    </a>
                                                     <span class="h7">Enfamil Pre</span>
                                                     <p class="thin">Fórmula Infantil em pó voltada para lactantes <span class="highlight">prematuros e/ou baixo peso ao nascer</span>.</p>
                                                 </article>
@@ -275,78 +344,10 @@
                                     </section>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="products-tab-alt">
-                                <div class="section-content row">
-
-                                    <ul class="nav nav-tabs alt smal-nav-tab">
-                                        <li class="active"><a href="#food-tab-alt" data-toggle="tab">Alimentos</a></li>
-                                        <li><a href="#cleanMaterial-tab-alt" data-toggle="tab">Materias de Limpeza</a></li>
-                                        <li><a href="#eletronics-tab-alt" data-toggle="tab">Eletrodomesticos</a></li>
-                                    </ul>
-
-                                    <div class="tab-content alt">
-                                        <div class="tab-pane active" id="food-tab-alt">
-                                            <div class="section-content row">
-                                                <div class="col-sm-6 animated hiding" data-animation="fadeInLeft">
-                                                    <img src="assets/imgs/food.jpg" class="img-responsive" alt="process 3" />
-                                                </div>
-                                                <div class="col-sm-6 animated hiding" data-animation="fadeInRight">
-                                                    <br/>
-                                                    <article class="center">
-                                                        <h3>Alimentos <span class="highlight">Que Trabalhamos</span></h3>
-                                                        <div class="sub-title">Lorem ipsum dolor sit atmet sit dolor greand fdanrh
-                                                            <br/> sdfs sit atmet sit dolor greand fdanrh sdfs</div>
-                                                        <p>In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident, nihilamane umquam magnum ac cognitione.</p>
-                                                        <br/>
-                                                        <a href="#" class="btn btn-secondary animated hiding" data-animation="bounceIn" data-delay="700">Get template</a>
-                                                        <a href="#" class="btn btn-secondary animated hiding" data-animation="bounceIn" data-delay="700">See elements</a>
-                                                    </article>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="tab-pane" id="cleanMaterial-tab-alt">
-                                            <div class="section-content row">
-                                                <div class="col-sm-6 animated hiding" data-animation="fadeInLeft">
-                                                    <img src="assets/imgs/cleanitems.jpg" class="img-responsive" alt="process 3" />
-                                                </div>
-                                                <div class="col-sm-6 animated hiding" data-animation="fadeInRight">
-                                                    <br/>
-                                                    <article class="center">
-                                                        <h3>Materiais <span class="highlight">de Limpeza</span></h3>
-                                                        <div class="sub-title">Lorem sit dolor greand fdanrh
-                                                            <br/> fdanrh sdfs</div>
-                                                        <p>Texto.</p>
-                                                    </article>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="tab-pane" id="eletronics-tab-alt">
-                                            <div class="section-content row">
-                                                <div class="col-sm-6 animated hiding" data-animation="fadeInLeft">
-                                                    <img src="assets/imgs/homeletronics.png" class="img-responsive" alt="process 3" />
-                                                </div>
-                                                <div class="col-sm-6 animated hiding" data-animation="fadeInRight">
-                                                    <br/>
-                                                    <article class="center">
-                                                        <h3>Materiais <span class="highlight">de Limpeza</span></h3>
-                                                        <div class="sub-title">Lorem sit dolor greand fdanrh
-                                                            <br/> fdanrh sdfs</div>
-                                                        <p>Texto.</p>
-                                                    </article>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
                 </section>
                 </div>
                 </div>
     </section>
-
     <!--[if lt IE 9]>
         <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js?ver=1"></script>
     <![endif]-->
@@ -367,6 +368,16 @@
     <script type="text/javascript" src="js/headhesive.min.js"></script>
     <script type="text/javascript" src="mailchimp/js/mailing-list.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
+
+    <!-- Reveal Modal   -->
+    <script src="js/jquery.reveal.js"></script>
+
+    <!-- Modals -->
+    <div id="enfamilpremodal" class="reveal-modal">
+        <h1>Reveal Modal Goodness</h1>
+        <p>This is a default modal in all its glory, but any of the styles here can easily be changed in the CSS.</p>
+        <a class="close-reveal-modal">&#215;</a>
+    </div>
 </body>
 
 </html>
