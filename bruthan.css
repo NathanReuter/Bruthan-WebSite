@@ -89,3 +89,10 @@
 .smal-nav-tab li a{
     font-size: 11px !important;
 }
+
+.long-block {
+    background: #EC526C;
+}
+#contact {
+    background-color: #414041;
+}
