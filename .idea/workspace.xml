@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbbb06e4-3f94-47e9-b345-f3cb57f364d4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/imgs/cleanitems.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/imgs/main-background.jpg" afterPath="$PROJECT_DIR$/assets/imgs/main-background.jpg" />
     </list>
     <ignored path="Bruthan-WebSite.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -230,12 +230,12 @@
       <updated>1444004310504</updated>
       <workItem from="1463264067683" duration="5170000" />
       <workItem from="1463413719714" duration="123000" />
-      <workItem from="1463413866054" duration="1790000" />
+      <workItem from="1463413866054" duration="2008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7083000" />
+    <option name="totallyTimeSpent" value="7301000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
