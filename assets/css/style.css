@@ -1076,7 +1076,7 @@ blockquote:after {
     margin: 0;
 }
 .static-header {
-    background: url('../imgs/zoom-17576528-3.jpg') no-repeat center center;
+    background: url('../imgs/main-background.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
