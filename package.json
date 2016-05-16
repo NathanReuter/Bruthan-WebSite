@@ -1,0 +1,22 @@
+{
+  "name": "brunthan-website",
+  "version": "1.0.0",
+  "description": "- Diviulgar Servicos Empresa  - Site Referencia : http://nutriport.com.br/  - Trocar Logo da Empresa  - Colocar Localização , servicos  , objetivos e produtos( Distribuidor de leite)  - Foco nos diferenciais (DHA e Outro)  - Produtos mais vendidos ( Progestimil)",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanReuter/Bruthan-WebSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanReuter/Bruthan-WebSite/issues"
+  },
+  "homepage": "https://github.com/NathanReuter/Bruthan-WebSite#readme",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  }
+}

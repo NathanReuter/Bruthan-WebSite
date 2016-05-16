@@ -132,14 +132,14 @@ small {
 }
 
 a {
-    color: #1ac6ff;
+    color: #fff;
     text-decoration: none;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #1ac6ff;
+    color: #dedede;
     text-decoration: none;
     outline: none;
 }
@@ -271,7 +271,7 @@ hr {
     background-color: #CF4456;
     border-color: #000000;
 }
-}
+
 .btn-secondary {
     background: transparent;
     border: 1px solid #1ac6ff;
@@ -1076,7 +1076,7 @@ blockquote:after {
     margin: 0;
 }
 .static-header {
-    background: url('/assets/imgs/zoom-17576528-3.jpg') no-repeat center center;
+    background: url('../imgs/zoom-17576528-3.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1941,7 +1941,7 @@ ol {
     padding-bottom: 15px;
 }
 .footer .list-inline li .icon {
-    color: #1ac6ff;
+    color: #fff;
     font-size: 50px;
 }
 .footer .list-unstyled li {
@@ -1954,7 +1954,7 @@ ol {
 .footer .list-unstyled li .icon {
     position: absolute;
     left: 0;
-    color: #1ac6ff;
+    color: #fff;
     font-size: 20px;
 }
 .copyright {

@@ -1,3 +1,9 @@
+@media only screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
 .header-offers-container {
     margin-top: 40px;
 }
@@ -40,8 +46,6 @@
 
 .header-trabalhamos {
     width: 300px;
-/*    color: aqua;*/
-/*    color: rgb(245, 106, 129);*/
     color: rgb(76, 76, 76);
 }
 
@@ -52,8 +56,8 @@
 .static-header-ball {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
-    border: 2px solid rgb(127, 127, 127);
+    border-radius: 33%;
+    border: 2px solid rgb(255, 255, 255);
 }
 
 .static-header-imagesBox p {
@@ -61,19 +65,34 @@
     line-height: 17px;
 }
 
+.static-header-others:hover {
+    background: rgba(128, 128, 128, 0.42);
+    cursor: pointer;
+}
+
 .static-header-baby {
-    background: url('/assets/imgs/babywhite.png') no-repeat bottom center;
+    background: url('../imgs/babywhite.png') no-repeat bottom center;
+    background-size: 58%;
+}
+.static-header-baby:hover {
+    background: url('../imgs/babywhite.png') rgba(128, 128, 128, 0.42) no-repeat bottom center ;
+    cursor: pointer;
     background-size: 58%;
 }
 
 .static-header-vegetales {
-    background: url('/assets/imgs/vegetableswhite.png') no-repeat center;
+    background: url('../imgs/vegetableswhite.png') no-repeat center;
+    background-size: 58%;
+}
+
+.static-header-vegetales:hover {
+    cursor: pointer;
+    background: url('../imgs/vegetableswhite.png') rgba(128, 128, 128, 0.42) no-repeat center;
     background-size: 58%;
 }
 
 .static-header-meat {
     font-size: 48px;
-
 }
 
 .highlight2 {
@@ -81,8 +100,6 @@
 }
 .static-header-meat i {
     margin-top: 25px;
-/*    color: aqua;*/
-/*    color: rgb(245, 106, 129);*/
     color: rgb(255, 255, 255);
 }
 

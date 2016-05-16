@@ -7,10 +7,23 @@
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <title>Bruthan</title>
-    <link rel="shortcut icon" href="assets/img/favicon.ico">
-    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.jpg">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.jpg">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.jpg">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all" />
     <!--    <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" media="all" />-->
@@ -20,7 +33,7 @@
     <link rel="stylesheet" href="assets/css/toastr.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
     <link rel="stylesheet" href="assets/css/reveal.css">
-    <link rel="stylesheet" href="bruthan.css">
+    <link rel="stylesheet" href="assets/css/bruthan.css">
 </head>
 
 <body id="landing-page">
@@ -93,7 +106,7 @@
                                 <p>Alimentos</p>
                             </div>
                             <div class="col-xs-4 static-header-imagesBox">
-                                <div class="static-header-meat static-header-ball">
+                                <div class="static-header-meat static-header-others static-header-ball">
                                     <i class="fa fa-cubes"></i>
                                 </div>
                                 <p>Diversos</p>
@@ -121,8 +134,11 @@
     <section id="about" class="section dark">
         <div class="container">
             <div class="section-content row">
-                <div class="col-sm-6 pull-right animated hiding" data-animation="fadeInRight">
+                <div class="col-sm-6 pull-right animated hiding hidden-xs" data-animation="fadeInRight">
                     <img src="assets/imgs/logo-v.png" class="img-responsive" alt="process 2" />
+                </div>
+                <div class="col-sm-6 text-center animated hiding visible-xs" data-animation="fadeInRight">
+                    <img src="assets/imgs/logo-v.png" alt="process 2" />
                 </div>
                 <div class="col-sm-6 animated hiding" data-animation="fadeInLeft">
                     <br/>
@@ -348,17 +364,40 @@
 
     <section id="buywith" class="long-block light">
         <div class="container center">
-            <div class="col-sm-12 col-lg-5">
-                <article>
-                    <h2><strong>Compre</strong> Conosco <i class="fa fa-shopping-cart"></i>
+
+            <div class="hidden-xs">
+                <div class="col-sm-12 col-lg-5">
+                    <article>
+                        <h2><strong>Compre</strong> Conosco <i class="fa fa-shopping-cart"></i>
                         </h2>
-                    <p class="thin">Ligue já - Rápido e Prático</p>
-                </article>
+                        <p class="thin">Ligue já - Rápido e Prático</p>
+                    </article>
+                </div>
+                <div class="col-sm-12 col-lg-7">
+                    <div class="form-group form-inline">
+                        <h2><i class="fa fa-phone"></i>
+                            Ligue: <span><strong>(48) 3224-7638</strong></span></h2>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-12 col-lg-7">
-                <div class="form-group form-inline">
-                    <h2><i class="fa fa-phone"></i>
-                             Ligue: <span><strong>(48) 3224-7638</strong></span></h2>
+
+
+            <!--Mobile -->
+
+            <div class="visible-xs">
+                <div class="col-sm-12 col-lg-5">
+                    <article class="text-center">
+                        <h2><strong>Compre</strong> Conosco <i class="fa fa-shopping-cart"></i>
+                        </h2>
+                        <p class="thin">Ligue já - Rápido e Prático</p>
+                    </article>
+                </div>
+                <div class="col-sm-12 col-lg-7">
+                    <div class="form-group form-inline text-center">
+                        <h2><i class="fa fa-phone"></i>
+                            Ligue:</h2>
+                        <h2><strong>(48) 3224-7638</strong></h2>
+                    </div>
                 </div>
             </div>
         </div>
@@ -368,19 +407,31 @@
         <div class="container">
             <div class="footer-content row">
                 <div class="col-sm-4">
-                    <div class="logo-wrapper">
+                    <div class="logo-wrapper hidden-xs">
+                        <img src="assets/imgs/logo-white.png" alt="logo" />
+                    </div>
+                    <div class="logo-wrapper visible-xs text-center">
                         <img src="assets/imgs/logo-white.png" alt="logo" />
                     </div>
                 </div>
                 <div class="col-sm-5 social-wrap">
-                    <div class="footer-title">Redes Sociais</div>
-                    <ul class="list-inline socials">
-                        <li><a href="https://www.facebook.com/pages/Bruthan-Comercial-Ltda/226567490845745"><span class="icon"><i class="fa fa-facebook-square"></i></span></a></li>
-                        <li><a href="https://plus.google.com/+BruthanComercialFlorian%C3%B3polis/about"><span class="icon"><i class="fa fa-google-plus-square"></i></span></a></li>
-                    </ul>
+                    <div class="hidden-xs">
+                        <div class="footer-title">Redes Sociais</div>
+                        <ul class="list-inline socials">
+                            <li><a href="https://www.facebook.com/pages/Bruthan-Comercial-Ltda/226567490845745"><span class="icon"><i class="fa fa-facebook-square"></i></span></a></li>
+                            <li><a href="https://plus.google.com/+BruthanComercialFlorian%C3%B3polis/about"><span class="icon"><i class="fa fa-google-plus-square"></i></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="visible-xs">
+                        <div class="footer-title" style="text-align: center;">Redes Sociais</div>
+                        <ul class="list-inline socials" style="text-align: center;">
+                            <li><a href="https://www.facebook.com/pages/Bruthan-Comercial-Ltda/226567490845745"><span class="icon"><i class="fa fa-facebook-square"></i></span></a></li>
+                            <li><a href="https://plus.google.com/+BruthanComercialFlorian%C3%B3polis/about"><span class="icon"><i class="fa fa-google-plus-square"></i></span></a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="col-sm-3">
-                    <div class="footer-title">Nosso COntato</div>
+                    <div class="footer-title">Nosso Contato</div>
                     <ul class="list-unstyled">
                         <li>
                             <span class="icon"><i class="fa fa-envelope"></i></span>
