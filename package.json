@@ -16,7 +16,32 @@
     "url": "https://github.com/NathanReuter/Bruthan-WebSite/issues"
   },
   "homepage": "https://github.com/NathanReuter/Bruthan-WebSite#readme",
-  "dependencies": {
-    "grunt": "^1.0.1"
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "connect-modrewrite": "^0.9.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-htmlmin": "^2.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-env": "^0.4.4",
+    "grunt-filerev": "^2.3.1",
+    "grunt-html2js": "^0.3.6",
+    "grunt-jscs": "^3.0.1",
+    "grunt-ng-annotate": "^2.0.2",
+    "grunt-postcss": "^0.8.0",
+    "grunt-spritesmith": "^6.3.1",
+    "grunt-timer": "^0.6.0",
+    "grunt-usemin": "^3.1.1",
+    "load-grunt-tasks": "^3.5.0",
+    "serve-static": "^1.11.1",
+    "time-grunt": "^1.4.0"
   }
 }
