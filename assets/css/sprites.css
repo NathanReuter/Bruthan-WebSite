@@ -16,3 +16,123 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 // HTML
 <i class="icon icon-home"></i>
 */
+.icon-Icon-mission {
+  background-image: url(../sprites/sprites.png);
+  background-position: -1741px -1319px;
+  width: 235px;
+  height: 200px;
+}
+.icon-babywhite {
+  background-image: url(../sprites/sprites.png);
+  background-position: -2255px -739px;
+  width: 80px;
+  height: 130px;
+}
+.icon-homeletronics {
+  background-image: url(../sprites/sprites.png);
+  background-position: -1024px 0px;
+  width: 717px;
+  height: 540px;
+}
+.icon-homeletronics2 {
+  background-image: url(../sprites/sprites.png);
+  background-position: 0px 0px;
+  width: 1024px;
+  height: 771px;
+}
+.icon-logo-v {
+  background-image: url(../sprites/sprites.png);
+  background-position: -1741px -739px;
+  width: 300px;
+  height: 286px;
+}
+.icon-logo-white {
+  background-image: url(../sprites/sprites.png);
+  background-position: -250px -1571px;
+  width: 250px;
+  height: 87px;
+}
+.icon-logo {
+  background-image: url(../sprites/sprites.png);
+  background-position: 0px -1571px;
+  width: 250px;
+  height: 88px;
+}
+.icon-logo1 {
+  background-image: url(../sprites/sprites.png);
+  background-position: -1976px -1319px;
+  width: 355px;
+  height: 124px;
+}
+.icon-logo2 {
+  background-image: url(../sprites/sprites.png);
+  background-position: -1976px -1443px;
+  width: 215px;
+  height: 75px;
+}
+.icon-logo44 {
+  background-image: url(../sprites/sprites.png);
+  background-position: -800px -771px;
+  width: 203px;
+  height: 194px;
+}
+.icon-medal {
+  background-image: url(../sprites/sprites.png);
+  background-position: -1024px -1140px;
+  width: 550px;
+  height: 400px;
+}
+.icon-enfagrow {
+  background-image: url(../sprites/sprites.png);
+  background-position: -2041px -739px;
+  width: 214px;
+  height: 279px;
+}
+.icon-enfamil-premium-2 {
+  background-image: url(../sprites/sprites.png);
+  background-position: 0px -771px;
+  width: 800px;
+  height: 800px;
+}
+.icon-enfamil {
+  background-image: url(../sprites/sprites.png);
+  background-position: -1741px -303px;
+  width: 362px;
+  height: 436px;
+}
+.icon-nutramigen {
+  background-image: url(../sprites/sprites.png);
+  background-position: -2103px -303px;
+  width: 214px;
+  height: 279px;
+}
+.icon-pregestimil {
+  background-image: url(../sprites/sprites.png);
+  background-position: -2002px -1025px;
+  width: 214px;
+  height: 279px;
+}
+.icon-sustagen {
+  background-image: url(../sprites/sprites.png);
+  background-position: -1024px -540px;
+  width: 600px;
+  height: 600px;
+}
+.icon-carnesSilva {
+  background-image: url(../sprites/sprites.png);
+  background-position: -1741px 0px;
+  width: 606px;
+  height: 303px;
+}
+.icon-meadjohnson {
+  background-image: url(../sprites/sprites.png);
+  background-position: -2103px -582px;
+  width: 220px;
+  height: 138px;
+}
+.icon-vegetableswhite {
+  background-image: url(../sprites/sprites.png);
+  background-position: -1741px -1025px;
+  width: 261px;
+  height: 294px;
+}

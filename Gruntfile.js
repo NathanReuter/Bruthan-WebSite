@@ -44,19 +44,13 @@ module.exports = function (grunt) {
                 files: [
                     {
                         expand: true,
-                        cwd: 'assets/images',
-                        src: ['assets/sprites/sprites.png'],
+                        cwd: 'assets/',
+                        src: ['sprites/sprites.png'],
                         dest: '<%= config.productionPath %>/assets/sprites/'
                     },
                     {
                         expand: true,
-                        cwd: 'assets/imagesNoSprite',
-                        src: ['**/*.{png,jpg,gif}'],
-                        dest: '<%= config.productionPath %>/assets/imagesNoSprite/'
-                    },
-                    {
-                        expand: true,
-                        cwd: 'assets/images',
+                        cwd: 'assets/imgs',
                         src: ['**/*.{png,jpg,gif}'],
                         dest: '<%= config.productionPath %>/assets/images/'
                     }
@@ -72,12 +66,12 @@ module.exports = function (grunt) {
                 padding: 5
             },
             build: {
-                src: 'assets/images/**/*.png',
+                src: 'assets/imgs/**/*.png',
                 dest: 'assets/sprites/sprites.png',
                 destCss: 'assets/css/sprites.css'
             },
             prod: {
-                src: '<%= config.app %>/assets/images/**/*.png',
+                src: '<%= config.app %>/assets/imgs/**/*.png',
                 dest: '<%= config.productionPath %>/assets/sprites/sprites.png',
                 destCss: 'assets/css/sprites.css',
                 imgPath: '../assets/sprites/sprites.png'
@@ -187,7 +181,7 @@ module.exports = function (grunt) {
                         flatten: true,
                         cwd: '<%= config.app %>',
                         src: ['favicons/*'],
-                        dest: '<%= config.buildPath %>/'
+                        dest: '<%= config.buildPath %>/favicons/'
                     }
                 ]
             },
@@ -215,12 +209,6 @@ module.exports = function (grunt) {
                     },
                     {
                         expand: true,
-                        cwd: '<%= config.app %>/',
-                        src: ['components/**'],
-                        dest: '<%= config.buildPath %>/'
-                    },
-                    {
-                        expand: true,
                         cwd: '<%= config.distPath %>/',
                         src: ['js/**', 'css/**'],
                         dest: '<%= config.productionPath %>/'
@@ -230,30 +218,6 @@ module.exports = function (grunt) {
                         cwd: '<%= config.app %>/',
                         src: ['assets/vendor/**/*'],
                         dest: '<%= config.productionPath %>/'
-                    },
-                    {
-                        expand: true,
-                        cwd: '<%= config.app %>/bower_components/font-awesome/',
-                        src: ['fonts/**'],
-                        dest: '<%= config.productionPath %>/assets/'
-                    },
-                    {
-                        expand: true,
-                        cwd: '<%= config.app %>/bower_components/roboto-fontface/',
-                        src: ['fonts/**'],
-                        dest: '<%= config.productionPath %>/assets/'
-                    },
-                    {
-                        expand: true,
-                        cwd: '<%= config.app %>/bower_components/Ionicons/',
-                        src: ['fonts/**'],
-                        dest: '<%= config.productionPath %>/assets/'
-                    },
-                    {
-                        expand: true,
-                        cwd: 'assets/',
-                        src: ['fonts/**'],
-                        dest: '<%= config.productionPath %>/assets'
                     }
                 ]
             }
@@ -320,12 +284,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: '<%= config.distPath %>/js/',
-                    src: 'app.js',
-                    dest: '<%= config.distPath %>/js/'
-                }, {
-                    expand: true,
-                    cwd: '<%= config.distPath %>/js/',
-                    src: 'vendor.js',
+                    src: '**',
                     dest: '<%= config.distPath %>/js/'
                 }]
             }
@@ -439,8 +398,7 @@ module.exports = function (grunt) {
             gruntfile: {
                 files: [
                     '<%= config.app %>/Gruntfile.js'
-                ],
-                tasks: ['jshint', 'jscs']
+                ]
             },
             html: {
                 files: [
@@ -481,7 +439,28 @@ module.exports = function (grunt) {
                     passwordVar: 'GITHUB_ACCESS_TOKEN'
                 }
             }
-        }
+        },
+
+        concat:
+            { generated:
+                { files:
+                    [ {
+                        dest: '<%= config.distPath %>/assets/css/style.min.css',
+                        src: [ '<%= config.app %>/assets/css/**.css']
+                    },
+                        {
+                            dest: '.tmp/concat/assets/js/optimized.js',
+                            src: [ 'js/foo.js', 'assets/js/bar.js' ]
+                        }
+                    ]
+                }
+            },
+
+        cssmin:
+        { generated:
+            { files:
+            [ { dest: '<%= config.distPath %>/assets/css/style.min.css',
+                src: [ '<%= config.distPath %>/assets/css/style.min.css' ] } ] } }
     });
 
 
@@ -493,7 +472,6 @@ module.exports = function (grunt) {
         'clean:build',
         'sprite:build',
         'postcss:build',
-        'html2js:build',
         'copy:build'
     ]);
 
@@ -501,11 +479,8 @@ module.exports = function (grunt) {
     grunt.registerTask('production', [
         'clean:prod',
         'env:prod',
-        'wiredep:prod',
-        'html2js:prod',
         'sprite:prod',
         'copy:dist',
-        'sass:prod',
         'postcss:prod',
         'useminPrepare',
         'concat:generated',
