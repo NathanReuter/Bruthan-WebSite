@@ -6,7 +6,7 @@ module.exports = function (grunt) {
 
     var timer = require('grunt-timer'),
         configs = {
-            app: '.',
+            app: './src',
             tempPath: '.tmp',
             distPath: './dist',
             buildPath: grunt.option('path') || './build',
